@@ -1,6 +1,6 @@
 services:
   bitcoin-node:
-    image: ${imageName}:${osName}-${osRelease}-bitcoin-${bitcionCoreVersion}  
+    image: ${imageName}:${osName}-${osRelease}-bitcoin-${bitcoinCoreVersion}  
     container_name: ${containerName}
     volumes:
       - ${containerVolume}:/bitcoin-data

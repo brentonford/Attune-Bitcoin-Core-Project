@@ -1,0 +1,1 @@
+eg. `$HOME/docker/bitcoin-core/`

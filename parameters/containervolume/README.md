@@ -1,0 +1,1 @@
+eg. `/mnt/bitcoin-ssd/`
