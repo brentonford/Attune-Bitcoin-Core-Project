@@ -1,1 +1,1 @@
-docker build -t {imageName}:{osName}-{osRelease}-bitcoin-{bitcoinCoreVersion} {workingDirectory}
+docker build -t bitcoin-core:{osName}-{osRelease}-bitcoin-{bitcoinCoreVersion} {workingDirectory}

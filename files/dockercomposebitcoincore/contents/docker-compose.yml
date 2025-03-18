@@ -1,7 +1,7 @@
 services:
   bitcoin-node:
-    image: ${imageName}:${osName}-${osRelease}-bitcoin-${bitcoinCoreVersion}  
-    container_name: ${containerName}
+    image: bitcoin-core:${osName}-${osRelease}-bitcoin-${bitcoinCoreVersion}  
+    container_name: bitcoin-core
     volumes:
       - ${containerVolume}:/bitcoin-data
     ports:

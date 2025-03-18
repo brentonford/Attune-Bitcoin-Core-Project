@@ -10,16 +10,6 @@
     ], 
     "makoParameters": [
         {
-            "name": "imageName", 
-            "parameterKey": "imagename", 
-            "parameterType": "c.s.s.b.phv.Text"
-        }, 
-        {
-            "name": "containerName", 
-            "parameterKey": "containername", 
-            "parameterType": "c.s.s.b.phv.Text"
-        }, 
-        {
             "name": "containerVolume", 
             "parameterKey": "containervolume", 
             "parameterType": "c.s.s.b.phv.Text"
