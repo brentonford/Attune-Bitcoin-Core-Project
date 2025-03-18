@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "a4e835bf-0f0a-43d5-8516-cec1e7c67dbf", 
+    "interpreter": 1, 
+    "key": "fetchcontainerstartuplogs", 
+    "name": "fetch container startup logs", 
+    "osCredKey": "hostnodeusernonprivileged", 
+    "serverKey": "hostnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

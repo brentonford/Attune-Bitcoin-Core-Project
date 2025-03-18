@@ -1,0 +1,32 @@
+{
+    "actionOnStepFail": "stop", 
+    "archiveKey": "dockerfilebitcoincore", 
+    "deployPath": "{workingDirectory}", 
+    "enabled": true, 
+    "externalUuid4": "99fa97bb-48a1-4281-b20a-e1e8c0c670e9", 
+    "key": "createdockerfilebitcoincore", 
+    "makoFileNames": [
+        "Dockerfile"
+    ], 
+    "makoParameters": [
+        {
+            "name": "osName", 
+            "parameterKey": "osname", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "osRelease", 
+            "parameterKey": "osrelease", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "bitcoinCoreVersion", 
+            "parameterKey": "bitcoincoreversion", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }
+    ], 
+    "name": "create Dockerfile Bitcoin-Core", 
+    "osCredKey": "hostnodeusernonprivileged", 
+    "serverKey": "hostnode", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
+}

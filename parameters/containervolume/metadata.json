@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "ffbe59d3-33da-4b1b-aef0-0db8b8a25ee6", 
+    "key": "containervolume", 
+    "name": "Container Volume", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

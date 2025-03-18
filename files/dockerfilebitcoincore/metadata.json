@@ -1,0 +1,6 @@
+{
+    "externalUuid4": "2fe00699-d091-4115-b77c-92b5ad560d75", 
+    "key": "dockerfilebitcoincore", 
+    "name": "Dockerfile Bitcoin-Core", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "3d9ac60f-3a54-425e-9e80-e2276c2f4d94", 
+    "key": "hostnode", 
+    "name": "Host Node", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinuxServer"
+}

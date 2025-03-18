@@ -1,0 +1,11 @@
+services:
+  bitcoin-node:
+    image: {dockerHubUsername}/{imageName} 
+    container_name: {containerName}
+    volumes:
+      - {containerVolume}:/bitcoin-data
+    ports:
+      - "8333:8333"
+      - "8332:8332"
+    restart: unless-stopped
+    user: "1000:1000"

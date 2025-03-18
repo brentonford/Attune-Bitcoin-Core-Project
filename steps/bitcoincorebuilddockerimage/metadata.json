@@ -1,0 +1,18 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "6f4254ce-cb06-4237-b4c2-b3930e496355", 
+    "isBlueprint": false, 
+    "key": "bitcoincorebuilddockerimage", 
+    "links": [
+        {
+            "stepKey": "createdockerfilebitcoincore"
+        }, 
+        {
+            "stepKey": "builddockerimage"
+        }
+    ], 
+    "name": "Bitcoin-Core build docker image", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

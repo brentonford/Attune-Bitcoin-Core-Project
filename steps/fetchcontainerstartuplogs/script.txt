@@ -1,0 +1,1 @@
+docker logs {containerName} | head -n 20

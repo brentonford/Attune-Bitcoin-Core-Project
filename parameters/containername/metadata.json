@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "ed1e7fa1-7d98-4371-9802-0be0aec1f94b", 
+    "key": "containername", 
+    "name": "Container Name", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

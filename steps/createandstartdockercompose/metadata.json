@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "a16d5000-9124-44d5-a590-afef79232255", 
+    "interpreter": 1, 
+    "key": "createandstartdockercompose", 
+    "name": "create and start docker compose", 
+    "osCredKey": "hostnodeusernonprivileged", 
+    "serverKey": "hostnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

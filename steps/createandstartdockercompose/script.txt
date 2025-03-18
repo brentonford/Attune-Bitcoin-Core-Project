@@ -1,0 +1,2 @@
+cd {workingDirectory}
+docker compose up -d

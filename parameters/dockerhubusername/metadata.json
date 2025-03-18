@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "7da9c09b-62b3-4213-8467-aea9ee9255e4", 
+    "key": "dockerhubusername", 
+    "name": "Docker Hub Username", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

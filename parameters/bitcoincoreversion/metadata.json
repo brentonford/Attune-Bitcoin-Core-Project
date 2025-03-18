@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "d6d53e85-23a9-4c13-b76f-ecf63848c4a6", 
+    "key": "bitcoincoreversion", 
+    "name": "Bitcoin Core Version", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

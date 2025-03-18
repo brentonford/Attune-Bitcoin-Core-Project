@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "e0ef3039-da90-418e-921a-8135316f38e5", 
+    "key": "hostnodeusernonprivileged", 
+    "name": "Host Node User: non privileged", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinOsCred"
+}

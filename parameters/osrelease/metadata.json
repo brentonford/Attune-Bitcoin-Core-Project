@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "ab9f8f73-eee5-47b1-b2e2-ce109d121dc8", 
+    "key": "osrelease", 
+    "name": "OS Release", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

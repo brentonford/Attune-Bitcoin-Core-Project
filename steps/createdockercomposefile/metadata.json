@@ -1,0 +1,37 @@
+{
+    "actionOnStepFail": "stop", 
+    "archiveKey": "dockercomposebitcoincore", 
+    "deployPath": "{workingDirectory}", 
+    "enabled": true, 
+    "externalUuid4": "cb82fb17-45c2-4fb5-b2f9-8d81a3e5a802", 
+    "key": "createdockercomposefile", 
+    "makoFileNames": [
+        "docker-compose.yml"
+    ], 
+    "makoParameters": [
+        {
+            "name": "dockerHubUsername", 
+            "parameterKey": "dockerhubusername", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "imageName", 
+            "parameterKey": "imagename", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "containerName", 
+            "parameterKey": "containername", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "containerVolume", 
+            "parameterKey": "containervolume", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }
+    ], 
+    "name": "create docker compose file", 
+    "osCredKey": "hostnodeusernonprivileged", 
+    "serverKey": "hostnode", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
+}

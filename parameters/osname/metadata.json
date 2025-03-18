@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "836e2857-a162-4083-835e-47825a19355a", 
+    "key": "osname", 
+    "name": "OS Name", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

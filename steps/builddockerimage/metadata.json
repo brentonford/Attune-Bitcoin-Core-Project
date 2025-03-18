@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "21f5359d-02e6-4f21-9ad9-1bec9e27408e", 
+    "interpreter": 1, 
+    "key": "builddockerimage", 
+    "name": "build docker image", 
+    "osCredKey": "hostnodeusernonprivileged", 
+    "serverKey": "hostnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}
