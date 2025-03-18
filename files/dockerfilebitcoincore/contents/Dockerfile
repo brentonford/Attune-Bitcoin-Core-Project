@@ -1,7 +1,7 @@
 # Build Stage
-FROM {osName}:{osRelease} AS builder
+FROM ${osName}:${osRelease} AS builder
 
-ARG BITCOIN_VERSION={bitcionCoreVersion}
+ARG BITCOIN_VERSION=${bitcoinCoreVersion}
 
 # Install dependencies
 RUN apt-get update -y && \
@@ -9,6 +9,9 @@ RUN apt-get update -y && \
 
 # Set working directory for downloads and extraction
 WORKDIR /tmp
+
+# Open MAKO raw text tag
+<%text>
 
 # Download Bitcoin Core tarball and signature
 RUN wget https://bitcoincore.org/bin/bitcoin-core-${BITCOIN_VERSION}/SHA256SUMS.asc \
@@ -32,14 +35,18 @@ RUN grep "bitcoin-${BITCOIN_VERSION}-aarch64-linux-gnu.tar.gz" SHA256SUMS | sha2
 # Extract and install Bitcoin Core
 RUN tar -xzf bitcoin-${BITCOIN_VERSION}-aarch64-linux-gnu.tar.gz
 
+</%text>
+
 # Runtime stage
-FROM {osName}:{osRelease}
+FROM ${osName}:${osRelease}
 
 # Copy only the binaries from the builder stage
 COPY --from=builder /tmp/bitcoin-*/bin/* /usr/local/bin/
 
-# Create a non-root user for running bitcoind
-RUN useradd -r -m -d /bitcoin-data bitcoin
+# Create bitcoin user with proper /etc/passwd and /etc/group entries
+RUN useradd -r -m -d /bitcoin-data -u 1000 bitcoin && \
+        echo "bitcoin:x:1000:1000:Bitcoin User:/bitcoin-data:/bin/bash" > /etc/passwd && \
+        echo "bitcoin:x:1000:" > /etc/group
 
 USER bitcoin
 

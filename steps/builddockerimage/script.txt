@@ -1,1 +1,1 @@
-docker build -t {dockerHubUsername}/{imageName} {workingDirectory}
+docker build -t {imageName}:{osName}-{osRelease}-bitcoin-{bitcoinCoreVersion} {workingDirectory}

@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "83ac467e-be81-40d8-a4a8-9c747c807e13", 
+    "key": "p2pport", 
+    "name": "P2P Port", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

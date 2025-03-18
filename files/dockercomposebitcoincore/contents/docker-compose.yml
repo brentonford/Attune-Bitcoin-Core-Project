@@ -1,11 +1,11 @@
 services:
   bitcoin-node:
-    image: {dockerHubUsername}/{imageName} 
-    container_name: {containerName}
+    image: ${imageName}:${osName}-${osRelease}-bitcoin-${bitcionCoreVersion}  
+    container_name: ${containerName}
     volumes:
-      - {containerVolume}:/bitcoin-data
+      - ${containerVolume}:/bitcoin-data
     ports:
-      - "8333:8333"
-      - "8332:8332"
+      - "${p2pPort}:8333"
+      - "${rpcPort}:8332"
     restart: unless-stopped
     user: "1000:1000"

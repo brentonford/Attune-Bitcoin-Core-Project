@@ -10,11 +10,6 @@
     ], 
     "makoParameters": [
         {
-            "name": "dockerHubUsername", 
-            "parameterKey": "dockerhubusername", 
-            "parameterType": "c.s.s.b.phv.Text"
-        }, 
-        {
             "name": "imageName", 
             "parameterKey": "imagename", 
             "parameterType": "c.s.s.b.phv.Text"
@@ -27,6 +22,31 @@
         {
             "name": "containerVolume", 
             "parameterKey": "containervolume", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "p2pPort", 
+            "parameterKey": "p2pport", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "rpcPort", 
+            "parameterKey": "rpcport", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "osName", 
+            "parameterKey": "osname", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "osRelease", 
+            "parameterKey": "osrelease", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "bitcoinCoreVersion", 
+            "parameterKey": "bitcoincoreversion", 
             "parameterType": "c.s.s.b.phv.Text"
         }
     ], 

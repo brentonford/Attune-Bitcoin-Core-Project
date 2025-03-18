@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "c5e5d3ae-8b3e-4f94-bf69-757a23d2e60d", 
+    "key": "rpcport", 
+    "name": "RPC Port", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}
