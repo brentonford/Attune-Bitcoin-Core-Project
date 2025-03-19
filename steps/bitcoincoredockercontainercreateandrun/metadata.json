@@ -4,21 +4,21 @@
     "enabled": true, 
     "externalUuid4": "9c5f5da4-287a-41c2-82ac-5d3cf3049142", 
     "isBlueprint": false, 
-    "key": "bitcoincorenodecontainercreateandrun", 
+    "key": "bitcoincoredockercontainercreateandrun", 
     "links": [
         {
-            "stepKey": "createdockercomposefile"
+            "stepKey": "createbitcoincoredockercomposefile"
         }, 
         {
-            "stepKey": "createbitcoinconfigurationfile"
+            "stepKey": "createbitcoincoreconfigurationfile"
         }, 
         {
             "stepKey": "createandstartdockercompose"
         }, 
         {
-            "stepKey": "fetchcontainerstartuplogs"
+            "stepKey": "fetchbitcoincorecontainerstartuplogs"
         }
     ], 
-    "name": "Bitcoin-Core node container create and run", 
+    "name": "Bitcoin-Core docker container create and run", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }

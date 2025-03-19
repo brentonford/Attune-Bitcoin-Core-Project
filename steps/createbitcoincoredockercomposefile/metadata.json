@@ -1,14 +1,29 @@
 {
     "actionOnStepFail": "stop", 
-    "archiveKey": "dockerfilebitcoincore", 
+    "archiveKey": "bitcoincoredockercompose", 
     "deployPath": "{workingDirectory}", 
     "enabled": true, 
-    "externalUuid4": "99fa97bb-48a1-4281-b20a-e1e8c0c670e9", 
-    "key": "createdockerfilebitcoincore", 
+    "externalUuid4": "cb82fb17-45c2-4fb5-b2f9-8d81a3e5a802", 
+    "key": "createbitcoincoredockercomposefile", 
     "makoFileNames": [
-        "Dockerfile"
+        "docker-compose.yml"
     ], 
     "makoParameters": [
+        {
+            "name": "containerVolume", 
+            "parameterKey": "containervolume", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "p2pPort", 
+            "parameterKey": "p2pport", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "rpcPort", 
+            "parameterKey": "rpcport", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
         {
             "name": "osName", 
             "parameterKey": "osname", 
@@ -25,7 +40,7 @@
             "parameterType": "c.s.s.b.phv.Text"
         }
     ], 
-    "name": "create Dockerfile Bitcoin-Core", 
+    "name": "create Bitcoin-Core docker compose file", 
     "osCredKey": "hostnodeusernonprivileged", 
     "serverKey": "hostnode", 
     "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"

@@ -4,15 +4,15 @@
     "enabled": true, 
     "externalUuid4": "6f4254ce-cb06-4237-b4c2-b3930e496355", 
     "isBlueprint": false, 
-    "key": "bitcoincorebuilddockerimage", 
+    "key": "bitcoincoredockerbuildimage", 
     "links": [
         {
-            "stepKey": "createdockerfilebitcoincore"
+            "stepKey": "createbitcoincoredockerfile"
         }, 
         {
-            "stepKey": "builddockerimage"
+            "stepKey": "buildbitcoincoredockerimage"
         }
     ], 
-    "name": "Bitcoin-Core build docker image", 
+    "name": "Bitcoin-Core docker build image", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }

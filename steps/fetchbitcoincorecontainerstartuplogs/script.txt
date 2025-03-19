@@ -1,0 +1,1 @@
+docker logs bitcoin-core | head -n 40

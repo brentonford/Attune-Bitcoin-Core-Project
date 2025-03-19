@@ -4,10 +4,10 @@
     "deployPath": "{containerVolume}", 
     "enabled": true, 
     "externalUuid4": "4b5d2db3-ddc8-41cf-a8eb-7618498aa88c", 
-    "key": "createbitcoinconfigurationfile", 
+    "key": "createbitcoincoreconfigurationfile", 
     "makoFileNames": [], 
     "makoParameters": [], 
-    "name": "create bitcoin configuration file", 
+    "name": "create Bitcoin-Core configuration file", 
     "osCredKey": "hostnodeusernonprivileged", 
     "serverKey": "hostnode", 
     "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"

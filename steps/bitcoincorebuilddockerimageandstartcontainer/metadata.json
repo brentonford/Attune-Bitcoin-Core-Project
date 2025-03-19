@@ -7,10 +7,10 @@
     "key": "bitcoincorebuilddockerimageandstartcontainer", 
     "links": [
         {
-            "stepKey": "bitcoincorebuilddockerimage"
+            "stepKey": "bitcoincoredockerbuildimage"
         }, 
         {
-            "stepKey": "bitcoincorenodecontainercreateandrun"
+            "stepKey": "bitcoincoredockercontainercreateandrun"
         }
     ], 
     "name": "Bitcoin-Core build docker image and start container", 

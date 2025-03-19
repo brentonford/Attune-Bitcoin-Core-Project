@@ -1,6 +1,6 @@
 {
     "externalUuid4": "17dfb80e-d306-4afe-8c65-ab2e71627c10", 
-    "key": "dockercomposebitcoincore", 
-    "name": "Docker Compose Bitcoin-Core", 
+    "key": "bitcoincoredockercompose", 
+    "name": "Bitcoin-Core Docker Compose", 
     "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
 }
