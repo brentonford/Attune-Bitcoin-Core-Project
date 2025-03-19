@@ -10,6 +10,9 @@
             "stepKey": "createdockercomposefile"
         }, 
         {
+            "stepKey": "createbitcoinconfigurationfile"
+        }, 
+        {
             "stepKey": "createandstartdockercompose"
         }, 
         {

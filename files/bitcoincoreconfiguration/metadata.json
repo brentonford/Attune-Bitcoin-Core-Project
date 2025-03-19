@@ -1,0 +1,6 @@
+{
+    "externalUuid4": "2910c8b6-ad3a-492a-b112-f3d997a55809", 
+    "key": "bitcoincoreconfiguration", 
+    "name": "Bitcoin-Core configuration", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}
