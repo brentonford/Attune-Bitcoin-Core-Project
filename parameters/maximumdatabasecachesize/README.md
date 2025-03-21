@@ -1,0 +1,1 @@
+Maximum database cache size MiB (4 to 16384, default: 450).

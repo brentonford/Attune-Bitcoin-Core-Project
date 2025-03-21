@@ -5,8 +5,16 @@
     "enabled": true, 
     "externalUuid4": "4b5d2db3-ddc8-41cf-a8eb-7618498aa88c", 
     "key": "createbitcoincoreconfigurationfile", 
-    "makoFileNames": [], 
-    "makoParameters": [], 
+    "makoFileNames": [
+        "bitcoin.conf"
+    ], 
+    "makoParameters": [
+        {
+            "name": "maximumDatabaseCacheSize", 
+            "parameterKey": "maximumdatabasecachesize", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }
+    ], 
     "name": "create Bitcoin-Core configuration file", 
     "osCredKey": "hostnodeusernonprivileged", 
     "serverKey": "hostnode", 

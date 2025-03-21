@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "ee56ee83-363e-4906-9c2e-366e828604f4", 
+    "key": "maximumdatabasecachesize", 
+    "name": "Maximum database cache size", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}
