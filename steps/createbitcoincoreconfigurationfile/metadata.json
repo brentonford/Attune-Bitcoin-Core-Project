@@ -13,6 +13,11 @@
             "name": "maximumDatabaseCacheSize", 
             "parameterKey": "maximumdatabasecachesize", 
             "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "scriptVerificationParallelisation", 
+            "parameterKey": "scriptverificationparallelisation", 
+            "parameterType": "c.s.s.b.phv.Text"
         }
     ], 
     "name": "create Bitcoin-Core configuration file", 

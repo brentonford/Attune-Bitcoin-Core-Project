@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "248a9712-20ea-4c65-9325-369a768e5700", 
+    "key": "scriptverificationparallelisation", 
+    "name": "Script Verification Parallelisation", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}
