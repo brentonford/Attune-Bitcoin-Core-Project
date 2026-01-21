@@ -1,0 +1,2 @@
+mkdir -p {containerVolume}
+chown -v {hostNodeUserRoot.user}:{hostNodeUserRoot.user} {containerVolume}

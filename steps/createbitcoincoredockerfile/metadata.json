@@ -23,6 +23,11 @@
             "name": "bitcoinCoreVersion", 
             "parameterKey": "bitcoincoreversion", 
             "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "hostArchitecture", 
+            "parameterKey": "hostarchitecture", 
+            "parameterType": "c.s.s.b.phv.Text"
         }
     ], 
     "name": "create Bitcoin-Core Dockerfile", 

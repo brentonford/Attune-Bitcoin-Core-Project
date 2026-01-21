@@ -2,6 +2,7 @@
 FROM ${osName}:${osRelease} AS builder
 
 ARG BITCOIN_VERSION=${bitcoinCoreVersion}
+ARG HOST_ARCHITECTURE=${hostArchitecture}
 
 # Install dependencies
 RUN apt-get update -y && \
@@ -16,7 +17,7 @@ WORKDIR /tmp
 # Download Bitcoin Core tarball and signature
 RUN wget https://bitcoincore.org/bin/bitcoin-core-${BITCOIN_VERSION}/SHA256SUMS.asc \
         https://bitcoincore.org/bin/bitcoin-core-${BITCOIN_VERSION}/SHA256SUMS \
-        https://bitcoincore.org/bin/bitcoin-core-${BITCOIN_VERSION}/bitcoin-${BITCOIN_VERSION}-aarch64-linux-gnu.tar.gz
+        https://bitcoincore.org/bin/bitcoin-core-${BITCOIN_VERSION}/bitcoin-${BITCOIN_VERSION}-${HOST_ARCHITECTURE}-linux-gnu.tar.gz
 
 # Download and extract guix.sigs builder-keys
 RUN wget -O guix-sigs.tar.gz https://github.com/bitcoin-core/guix.sigs/archive/main.tar.gz && \
@@ -30,10 +31,10 @@ RUN gpg --import builder-keys/*
 RUN gpg --verify SHA256SUMS.asc SHA256SUMS
 
 # Verify the tarball checksum
-RUN grep "bitcoin-${BITCOIN_VERSION}-aarch64-linux-gnu.tar.gz" SHA256SUMS | sha256sum -c
+RUN grep "bitcoin-${BITCOIN_VERSION}-${HOST_ARCHITECTURE}-linux-gnu.tar.gz" SHA256SUMS | sha256sum -c
 
 # Extract and install Bitcoin Core
-RUN tar -xzf bitcoin-${BITCOIN_VERSION}-aarch64-linux-gnu.tar.gz
+RUN tar -xzf bitcoin-${BITCOIN_VERSION}-${HOST_ARCHITECTURE}-linux-gnu.tar.gz
 
 </%text>
 

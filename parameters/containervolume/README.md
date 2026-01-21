@@ -1,1 +1,1 @@
-eg. `/mnt/bitcoin-ssd/`
+eg. `/var/bitoin/` or mounted storage `/mnt/bitcoin-ssd/`

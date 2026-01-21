@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "62c294c0-cdda-4464-9f9c-19afb7914c09", 
+    "key": "hostarchitecture", 
+    "name": "Host Architecture", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "c535a67a-5ae4-46ce-8d5a-e72fcabe44c7", 
+    "interpreter": 1, 
+    "key": "makecontainervolumedirectory", 
+    "name": "Make Container Volume Directory", 
+    "osCredKey": "hostnodeuserroot", 
+    "serverKey": "hostnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

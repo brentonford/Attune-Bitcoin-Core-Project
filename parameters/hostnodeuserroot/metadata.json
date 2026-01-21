@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "7676aa8f-a501-4dd8-b637-744d74d504bc", 
+    "key": "hostnodeuserroot", 
+    "name": "Host Node User: root", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinOsCred"
+}
