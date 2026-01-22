@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "d2a67f9c-649f-46b1-968d-fbffec39cafd", 
+    "interpreter": 1, 
+    "key": "mountingexternalcontainervolumedirectory", 
+    "name": "Mounting External Container Volume Directory", 
+    "osCredKey": "hostnodeuserroot", 
+    "serverKey": "hostnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

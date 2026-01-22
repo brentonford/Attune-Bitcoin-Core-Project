@@ -7,9 +7,6 @@
     "key": "bitcoincorebuilddockerimageandstartcontainer", 
     "links": [
         {
-            "stepKey": "makecontainervolumedirectory"
-        }, 
-        {
             "stepKey": "bitcoincoredockerbuildimage"
         }, 
         {

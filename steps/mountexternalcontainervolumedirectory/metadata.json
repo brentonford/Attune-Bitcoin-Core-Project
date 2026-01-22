@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "c0ee72f2-fa32-4cdc-bea5-65421659302b", 
+    "isBlueprint": true, 
+    "key": "mountexternalcontainervolumedirectory", 
+    "links": [
+        {
+            "stepKey": "mountingexternalcontainervolumedirectory"
+        }
+    ], 
+    "name": "Mount External Container Volume Directory", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

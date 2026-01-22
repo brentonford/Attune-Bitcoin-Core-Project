@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "825ebacf-26e4-4a52-8d9e-255e48bbbf1b", 
+    "isBlueprint": true, 
+    "key": "makevarcontainervolumedirectory", 
+    "links": [
+        {
+            "stepKey": "makingvarcontainervolumedirectory"
+        }
+    ], 
+    "name": "Make /var Container Volume Directory", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

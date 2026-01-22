@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "7342bd08-6cf2-4581-b044-a9016ebecb6d", 
+    "key": "attacheddevice", 
+    "name": "Attached Device", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}
